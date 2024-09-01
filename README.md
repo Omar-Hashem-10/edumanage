@@ -50,9 +50,3 @@ Contains scripts and logic for handling various operations and requests. This in
 Includes the dashboard and related functionalities for professors. This directory contains the code for managing courses, lectures, exams, and student data.
 
 
-## Installation
-
-1. **Clone the Repository**
-
-   ```bash
-   git clone <repository-url>
