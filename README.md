@@ -24,6 +24,32 @@ The University Professor Management System is a comprehensive platform designed 
 - **Exams**: Take exams and view results.
 - **Support Messages**: Send messages to the professor through the support section and view responses.
 
+- ## Project Structure
+
+This project is organized into the following directories:
+
+### `views/`
+Contains the HTML templates used for rendering the user interface. This includes templates for both the professor dashboard and the student website.
+
+### `includes/`
+Includes common files and partial templates used across the project. This directory contains reusable components and snippets used in multiple views.
+
+### `handlers/`
+Contains scripts and logic for handling various operations and requests. This includes request handling for form submissions, data processing, and API interactions.
+
+### `core/`
+- **`functions/`**: Contains core PHP functions used throughout the project for tasks such as data manipulation and utility functions.
+- **`validations/`**: Includes validation functions for form inputs and data, ensuring data integrity and security.
+
+### `src/`
+- **`config/`**: Configuration files for application settings, including database configurations, environment settings, and application-specific parameters.
+- **`public/`**: Publicly accessible files such as CSS, JavaScript, and images. This directory is served directly by the web server.
+- **`database/`**: Contains migration files and seeders for database setup. This directory is used to set up and populate the database schema.
+
+### `admin/`
+Includes the dashboard and related functionalities for professors. This directory contains the code for managing courses, lectures, exams, and student data.
+
+
 ## Installation
 
 1. **Clone the Repository**
